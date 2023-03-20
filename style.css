@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+.banner{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.slider{
+    position: absolute;
+    left:0;
+    top:0;
+    width:1600px;
+    transition: 0.5s;
+}
